@@ -40,6 +40,12 @@ export default function Home() {
           >
             Entrar
           </button>
+          <p
+            className="text-yellow-400 text-end hover:border-b-2  cursor-pointer"
+            onClick={() => router.push("/sign-up")}
+          >
+            Não tenho uma conta
+          </p>
         </div>
       </div>
 
